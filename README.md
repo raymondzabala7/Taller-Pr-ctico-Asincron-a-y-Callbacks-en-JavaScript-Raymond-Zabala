@@ -21,6 +21,10 @@ Porque JavaScript maneja un modelo asíncrono y no bloqueante. Cuando se encuent
 Actúa como una API del navegador (o entorno Node.js) que saca la función del hilo principal de ejecución y la programa en un temporizador de fondo. Al expirar el tiempo, coloca el callback en la "cola de tareas" para que se ejecute cuando el hilo principal esté libre.
 
 Parte 3. Simulación de Procesos Reales
+Orden  Tarea
+1     leer
+2     reproducir
+3	    solicitarJSON
 ¿Cuál terminó primero? 
 leerSensor
 
